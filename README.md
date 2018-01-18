@@ -1,2 +1,3 @@
 # Project-Euler
-Project euler solutions.
+A colection of Project Euler's solutions.
+The problems can be found on https://projecteuler.net/.
