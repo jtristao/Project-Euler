@@ -1,12 +1,11 @@
 /**************************************************************************
 	Author: João V. Tristão
 	Date: 19/01/2017
-	
 	Ojective: Find the sum of every even fibonacci number smaller than 4000000.
 	Approach: 
 	    -Every third fibonacci number is even
 	    -The golden ratio is also the ratio between every fibonacci number (works better on large number)
-	    -Starting with 2, every even fibonacci number will be 'n * golen_ratio^3'
+	    -Starting with n = 2, every even fibonacci number will be 'n * golen_ratio^3'
 ***************************************************************************/
 
 #include <stdio.h>
