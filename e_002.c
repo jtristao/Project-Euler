@@ -1,6 +1,6 @@
 /**************************************************************************
 	Author: João V. Tristão
-	Date: 19/01/2017
+	Date: 19/01/2018
 	Ojective: Find the sum of every even fibonacci number smaller than 4000000.
 	Approach: 
 	    -Every third fibonacci number is even
