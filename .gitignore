@@ -1,1 +1,8 @@
-*.smp
+# Compiled Object files
+*.o
+
+# Executables
+a.out
+
+#vim swap file
+*.swp
