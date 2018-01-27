@@ -3,9 +3,9 @@
 	Date: 24/02/2018
 	Problem: Find the 10001th Prime
 	Approach:
-		-Create a big list with primes using sieve of ertosthenes wihtin  a certain limit.
+		-Create a big list with primes using sieve of eratosthenes wihtin  a certain limit.
 		-Check for the 10001th.
-Notes:Not a exactly a goo program:
+Notes:Not a exactly a good program:
 	- calculates a lot of unnecessary primes
 	- you need to manually adjust LIMIT in order to find another prime.
 *************************************************************************/
