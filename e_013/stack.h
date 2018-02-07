@@ -12,6 +12,7 @@ int stack_empty();
 void stack_print();
 void big_add();
 void stack_reverse();
+void stack_reset();
 void stack_free();
 
 #endif
