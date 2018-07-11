@@ -1,0 +1,126 @@
+one		3
+two		3	
+three	5
+four	4
+five	4				==>		39
+six		3
+seven	5
+eight	5
+nine	4
+ten		3
+
+eleven		6
+twelve		6
+thirteen	8
+fourteen	8
+fifteen		7			==>		67
+sixteen		7
+seventeen	9
+eighteen	8
+nineteen	8
+
+twenty			6
+twenty one		3
+twenty two		3
+twenty three 	5
+twenty four 	4
+twenty five 	4		==> 36 + 10*6 = 96     xx202
+twenty six 		3
+twenty seven	5
+twenty eight 	5  
+twenty nine 	4
+
+thirty			6
+...						==> 36 + 10*6 = 96     xx298
+thirty nine
+
+forty			5
+...						==> 36 + 10*5 = 86     xx384 
+forty nine
+
+fifty			5
+...						==> 36 + 10*5 = 86	   xx470						===> 854
+fity nine
+
+sixty			5
+...						==> 36 + 10*5 = 86     xx556
+sixty nine
+
+seventy			7
+...						==> 36 + 10*7 = 106    xx662
+seventy nine
+
+eighty			6
+...						==> 36 + 10*6 = 96     xx758
+eighty nine
+
+ninety			6
+...						==> 36 + 10*6 = 96     xx854
+ninety nine
+
+------------------------------------------------------------------------------------------------------------
+
+one hundred   			10
+one hundred and one   	13
+...												==> 10 + 854 + 13*99 = 2151
+one hundred and ninety nine
+
+------------------------------------------------------------------------------------------------------------
+
+two hundred				10				
+two hundred and one		13
+...												==> 10 + 854 + 13*99 = 2151
+two hundred and ninety nine
+
+------------------------------------------------------------------------------------------------------------
+
+three hundred				12				
+three hundred and one   	15
+...												==> 12 + 854 + 15*99 = 2351
+three hundred and ninety nine
+
+------------------------------------------------------------------------------------------------------------
+
+four hundred			11
+four hundred and one   	14
+...												==> 11 + 854 + 14*99 = 2251
+four hundred and ninety nine
+
+------------------------------------------------------------------------------------------------------------
+
+five hundred			11
+five hundred and one   	14
+...												==> 11 + 854 + 14*99 = 2251
+five hundred and ninety nine
+
+------------------------------------------------------------------------------------------------------------
+
+six hundred				10
+six hundred and one   	13
+...												==> 10 + 854 + 13*99 = 2151
+six hundred and ninety nine
+
+------------------------------------------------------------------------------------------------------------
+
+seven hundred			12
+seven hundred and one   15
+...												==> 12 + 854 + 15*99 = 2351
+seven hundred and ninety nine
+
+------------------------------------------------------------------------------------------------------------
+
+eight hundred			12
+eight hundred and one   15
+...												==> 12 + 854 + 15*99 = 2351
+eight hundred and ninety nine
+
+------------------------------------------------------------------------------------------------------------
+
+nine hundred			11
+nine hundred and one	14
+...												==> 11 + 854 + 14*99 = 2251
+nine hundred and ninety nine
+
+------------------------------------------------------------------------------------------------------------
+
+one thousand 									==> 11
