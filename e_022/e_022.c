@@ -1,6 +1,6 @@
 /**************************************************************************
 	Author: João V. Tristão
-	Date: 18/07/2018
+	Date: 19/07/2018
 	Problem: Find the "alphabetical" value off a unsorted file.
 	Approach: 
 		- Sort the file using quick sort
