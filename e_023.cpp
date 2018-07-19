@@ -1,8 +1,14 @@
 /**************************************************************************
 	Author: João V. Tristão
 	Date: 19/02/2018
-	Problem: 
-	Approach:
+	Problem: https://projecteuler.net/problem=23
+	Approach: 
+		- Find the abundant numbers
+		- Create a vector and mark all possible sums
+		- Add the index unmarked possitions
+	Complexity:
+		- Time O(n²)
+		- Space O(n)
 
 **************************************************************************/
 
