@@ -13,6 +13,10 @@
 
 #include "stack.h"
 
+// Criar uma biblioteca big numbers para usos futuros
+// Adicionar um script pro código
+// Resolver o problema
+
 int main(){
 	STACK *number_a, *number_b, *result;
 	char n, flag;
