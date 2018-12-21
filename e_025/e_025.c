@@ -1,8 +1,9 @@
 /**************************************************************************
 	Author: João V. Tristão
 	Date: 20/07/1998
-	Problem: 
+	Problem: Find the index of the first fibonacci number with 1000 digits
 	Approach:
+		- Find all the fibonacci numbers
 
 **************************************************************************/
 
