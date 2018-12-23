@@ -1,12 +1,9 @@
 /**************************************************************************
 	Author: João V. Tristão
-	Date: 13/12/2018
-	Problem: Find the 'd' with the largest reciprocal cycle for 1/'d'
+	Date: 
+	Problem: 
 	Approach:
-		- Find all the cycles envolving primes
-		- Manually search for the largest
-		Starting with the largest prime helps a lot.
-		
+
 **************************************************************************/
 
 #include <stdio.h>
