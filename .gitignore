@@ -6,3 +6,6 @@ a.out
 
 #vim swap file
 *.swp
+
+#java class files
+*.class
