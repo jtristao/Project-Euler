@@ -1,21 +1,10 @@
 /**************************************************************************
 	Author: João V. Tristão
 	Date: 24/12/2018
-	Problem: Find the sum of all the numbers that can be written as the sum of fifth powers of their digits.
+	Problem: Find the sum of all products whose multiplicand/multiplier/product identity can be written as a 1 through 9 pandigital.
 	Approach:
-		- Generate all numbers with until 6 digits
+		- Generate all pandigital numbers
 		- Check if they fit the rule.
-Obs: 
-	Why 6? -> Number of digits | Maximum value
-					1                  9^5 = 59049
-					2                2*9^5 = 118.098
-					3                3*9^5 = 177.147
-					4                4*9^5 = 236.196
-					5                5*9^5 = 295.245
-					6                6*9^5 = 354.294
-					7                7*9^5 = 413.343
-	After six, its impossible to reach all numbers with 7 digits.
-	Even though, it was checked until 10 digits.(Took a while)
 
 **************************************************************************/
 
@@ -33,7 +22,7 @@ set<int>answer;
 
 void check_pandigital(string number){
 	int a, b, result;
-	// cout << number << endl;
+
 	for(int i = 0; i < 7; i++){
 		for(int j = 1; j < 8-i; j++){
 			a = stoi(number.substr(0, i+1));
@@ -48,9 +37,8 @@ void check_pandigital(string number){
 	}
 }
 
-/* Generate all numbers with 'i' digits */
+/* Generate all pandigital numbers by permuting the unchoosen string */
 void backtraking(string number, string unchoosen){	
-	// cout << number << "---" << unchoosen << endl;
 	// base case
 	if(number.length() == 9){
 		check_pandigital(number);
