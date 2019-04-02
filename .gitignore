@@ -9,3 +9,6 @@ a.out
 
 #java class files
 *.class
+
+#recovey file
+recovery_key.txt
