@@ -1,8 +1,10 @@
 /**************************************************************************
 	Author: João V. Tristão
-	Date:
-	Problem:
+	Date: 17/04/2019
+	Problem: Pentagonal Numbers (https://projecteuler.net/problem=44)
 	Approach:
+		- Find pentagonal numbers within a arbitrary range
+		- Verify if the sum and the difference would make a match
 
 **************************************************************************/
 
