@@ -12,3 +12,6 @@ a.out
 
 #recovey file
 recovery_key.txt
+
+#python trash
+__pycache__/
