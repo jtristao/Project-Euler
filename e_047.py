@@ -7,7 +7,7 @@
 #		- Add the factorization in a set.
 #		- While the len of the set is smaller than 16, keep searching.
 #		Time : O(n)
-#		Space : O(1)
+#		Space : O(n)
 # 
 # **************************************************************************/
 
