@@ -1,3 +1,12 @@
+/**************************************************************************
+	Author: João V. Tristão
+	Date: 26/12/2019
+	Problem: Ordered fractions
+	Approach:
+		- Use Stern-Brocot tree to perform binary search.
+
+**************************************************************************/
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -32,19 +41,32 @@ class Fraction{
 
 			return c;
 		}
-
 };
 
+bool fractions_less_than(Fraction a, Fraction b){
+	return a.num * b.den < b.num * a.den;
+}
+
 int main(int argc, char *argv[]){
-	int n = 1000000;
+	Fraction left(0,1), right(1,1), middle(0,0);
+	int count = 0;
 
-	for(int num = 1; num < n; num++){
-		for(int den = 1; den <=n; den++){
+	while(left.den + right.den <= 1000000){
+		count++;
+		middle.num = left.num + right.num;
+		middle.den = left.den + right.den;
+	
+		bool side = (middle.num == 3 && middle.den == 7) || ! fractions_less_than(middle, {3,7});
+
+		if(side){
+			right = middle;
+		}else{
+			left = middle;
 		}
-		if(num % 10000 == 0)
-			printf("%d\n", num/10000);
-
 	}
+
+	middle.print();
+	printf("%d\n", count);
 
 	return 0;
 }
