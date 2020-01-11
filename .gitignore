@@ -4,14 +4,17 @@
 # Executables
 a.out
 
-#vim swap file
+# vim swap file
 *.swp
 
-#java class files
+# java class files
 *.class
 
-#recovey file
+# recovey file
 recovery_key.txt
 
-#python trash
+# python trash
 __pycache__/
+
+# Temporary file
+temp.txt
