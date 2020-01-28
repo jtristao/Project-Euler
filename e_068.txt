@@ -1,0 +1,44 @@
+Pen and Paper:
+	In order to maximize the number 6,7,8,9,10 must be in the outer cycle.
+		Outer: 6,7,8,9,10
+		Inner: 1,2,3,4,5
+
+	Since the final number will start from the smallest outer value, the first digit is 6
+
+	The total sum of the lines is 2*(1+2+3+4+5)+6+7+8+9+10 = 70 meaning that every line adds to 14. (All configurations use all the numbers and have the same value)
+
+	Startirg with the 6, the first line needs 8 point to 14, but will be built using only inner ring values, that is, we need a way of adding two different numbers from {1,2,3,4,5} that adds up to 8. The only option is 5+3 or 3+5. 5+5 is choosen to give a higher number.
+
+		Ring: 6-5-3, *-3-*, *-*-*, *-*-*, *-*-5
+		Inner avaible: 1,2,4
+		Outer avaible: 7,8,9,10
+		 	
+	Considering the new list of inner/outter circles, we have this options to obtain 14:
+	
+		7-2-5           8-1-5			9-1-4			10-3-1
+		7-5-2x          8-5-1x			9-4-1			10-1-3x      (It's impossible for 5 to be in the middle or 3 in the middle)
+		7-3-4			8-2-4			9-2-3
+		7-4-3			8-4-2			9-3-2x
+
+	The outter value 10 has only one avaible configuration, leading to
+
+		Ring: 6-5-3, 10-3-1, *-1-*, *-*-*, *-*-5
+
+	Updating our list:
+
+		7-2-5           8-1-5			9-1-4			
+		7-3-4x          8-2-4			9-4-1x
+		7-4-3x			8-4-2			
+										
+
+	7-2-5 it's the only option to 7 and 9-1-4 it's the only to 9, giving
+
+		Ring: 6-5-3, 10-3-1, 9-1-4, *-4-2, 7-2-5
+
+	Updating our list:
+
+		8-4-2
+
+	So:	
+
+		Ring: 6-5-3, 10-3-1, 9-1-4, 8-4-2, 7-2-5
