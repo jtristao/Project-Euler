@@ -49,7 +49,7 @@ for i in range(0, index_limit):
 	for j in range(i+2, index_limit):
 		temp = acc_sum[j] - acc_sum[i]
 		if temp < limit and is_palindrome(temp):
-			nums.append(temp)
+			nums.add(temp)
 
 
-print("Sum = {}".format(np.sum(nums)))
+print("Sum = {}".format(int(np.sum(list(nums)))))
